@@ -1,0 +1,10 @@
+server:
+  port: 4300
+
+keycloak:
+  auth-server-url: http://192.168.99.100:8080/auth
+  realm: restaurant
+  resource: restaurant-api
+  credentials:
+    secret: c214112b-c851-4d39-a063-5ec0ec46e013
+  bearer-only: true
